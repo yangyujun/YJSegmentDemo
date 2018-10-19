@@ -12,7 +12,7 @@
 
 @interface YJContentView()<UICollectionViewDelegate,UICollectionViewDataSource>
 @property (nonatomic ,strong) NSArray *childVcs;
-@property (nonatomic ,strong) UIViewController *parentVc;
+@property (nonatomic ,weak) UIViewController *parentVc;
 @property (nonatomic ,assign) BOOL isForbidScrollDelegate;
 @property (nonatomic ,assign) CGFloat startOffsetX;
 @property (nonatomic ,strong) UICollectionView *collectionView;

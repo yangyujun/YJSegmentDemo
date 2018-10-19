@@ -15,7 +15,7 @@
 @property (nonatomic ,strong) NSArray *titles;
 @property (nonatomic ,strong) YJTitleStyle *style;
 @property (nonatomic ,strong) NSArray *childVcs;
-@property (nonatomic ,strong) UIViewController *parentVc;
+@property (nonatomic ,weak) UIViewController *parentVc;
 @property (nonatomic ,strong) YJTitleView *titleView;
 @property (nonatomic ,strong) YJContentView *contentView;
 
